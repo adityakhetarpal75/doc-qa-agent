@@ -2,7 +2,7 @@ import streamlit as st
 from graph.workflow import build_graph
 from rag.document_store import store_documents
 from rag.llama_loader import load_pdf_bytes_llamaindex as load_pdf_bytes
-from langchain.text_splitter import RecursiveCharacterTextSplitter  # ADD THIS
+from langchain_text_splitters import RecursiveCharacterTextSplitter  # ADD THIS
 
 st.set_page_config(
     page_title="Document Q&A Agent",

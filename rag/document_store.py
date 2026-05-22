@@ -10,7 +10,7 @@ load_dotenv()
 # SWITCHED FROM AZURE TO OLLAMA - NO RATE LIMITS
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
-INDEX_NAME = "doc-agent"
+INDEX_NAME = "doc-agent1"
 
 def get_pinecone_index():
     pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
